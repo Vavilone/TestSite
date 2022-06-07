@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Английский зачетная работа</title>
+	<link rel="stylesheet" href="assets/stylesheet/main.css">
+	<link rel="stylesheet" href="assets/stylesheet/font/fonts.css">
+  </head>
+  <style>
+  </style>
+  <body>
+	<header>
+		<h1 class="logo">
+			<a href="index.html">Тестируйся!</a>
+		</h1>
+		<nav> 
+			<a href="index.html">Главная</a>
+			<a href="tests.html">Тесты</a>
+			<a href="test.html">Тест-ассоциации</a>
+		</nav>  
+	</header>	
+	
+	<div class="Main2">
+		<div id="fq"> <h1 id="q0"> </h1> </div>
+		<div id="radio" class="Rad">
+			<label for="t1" id = "q1"></label>
+			<input id="t1" type="radio" name="quest" value="1" class="radio_input" checked><br>
+			<label for="t2" id = "q2"></label>
+			<input id="t2" type="radio" name="quest" class="radio_input" value="2"><br>
+			<label for="t3" id = "q3"> </label>
+			<input id="t3" type="radio" name="quest" class="radio_input" value="3"><br>
+			<label for="t4" id = "q4"> </label>
+			<input id="t4" type="radio" name="quest" class="radio_input" value="4"><br>
+		</div>
+		<div class="Buttons_div">
+			<input id = "last" type="button" class="Button" value="<<" OnClick="Last();" >
+			<div id="Answer"> </div> 
+			<input id = "next" type="button" class="Button" value=">>" OnClick="Next();">
+		</div>
+		<div id="resTest"> </div>
+	</div>
+	<footer class="footer"></footer>
+	<script src="assets/js/main.js" language="javascript" defer>
+	</script>
+ </body>
+</html>
